@@ -1,0 +1,9 @@
+<h1 class="text-3xl font-bold underline">Hola mundo</h1>
+<p>Hola de nuevo.</p>
+
+<lib-pfr-side-menu
+  [isAuthenticated]="isAutheticated()"
+  [titleColor]="TitleColor.blue"
+  (isSignIn)="isAutheticated.set(true)"
+  (isSignOut)="isAutheticated.set(false)"
+/>

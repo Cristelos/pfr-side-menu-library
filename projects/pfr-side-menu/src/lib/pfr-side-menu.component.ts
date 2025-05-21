@@ -18,6 +18,8 @@ export enum TitleColor {
 export class PfrSideMenuComponent {
   isAuthenticated = input(false);
 
+  title = input('APX');
+  subTitle = input('Corp');
   titleColor = input<TitleColor>(TitleColor.purple);
 
   isSignOut = output<void>();

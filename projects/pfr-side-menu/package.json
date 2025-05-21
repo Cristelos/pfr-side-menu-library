@@ -1,6 +1,21 @@
 {
   "name": "pfr-side-menu",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cristelos/pfr-side-menu-library"
+  },
+  "keywords": [
+    "Patricia",
+    "pfr",
+    "do not use"
+  ],
+  "license":"MIT",
+  "author": {
+    "name": "Patricia Fernández"
+  },
+  "bugs": {"url": "https://github.com/Cristelos/pfr-side-menu-library/issues"},
+  "homepage": "https://patriciafernandezruibal.com/",
   "peerDependencies": {
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0"
